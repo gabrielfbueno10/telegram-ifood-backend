@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4D977D7-F205-499F-9096-F1E34D79910D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramIfood.API", "src\TelegramIfood.API\TelegramIfood.API.csproj", "{1FC80160-A3A8-47CA-BE67-ED5F66E9F302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramIfood.Events", "src\TelegramIfood.Events\TelegramIfood.Events.csproj", "{C02CE6BA-97EA-41D7-8E06-5A9EC7B6533F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC80160-A3A8-47CA-BE67-ED5F66E9F302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC80160-A3A8-47CA-BE67-ED5F66E9F302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC80160-A3A8-47CA-BE67-ED5F66E9F302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC80160-A3A8-47CA-BE67-ED5F66E9F302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02CE6BA-97EA-41D7-8E06-5A9EC7B6533F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02CE6BA-97EA-41D7-8E06-5A9EC7B6533F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02CE6BA-97EA-41D7-8E06-5A9EC7B6533F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02CE6BA-97EA-41D7-8E06-5A9EC7B6533F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FC80160-A3A8-47CA-BE67-ED5F66E9F302} = {C4D977D7-F205-499F-9096-F1E34D79910D}
+		{C02CE6BA-97EA-41D7-8E06-5A9EC7B6533F} = {C4D977D7-F205-499F-9096-F1E34D79910D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09C1F9FA-6BAA-4E02-882B-966B50439CB0}
+	EndGlobalSection
+EndGlobal
